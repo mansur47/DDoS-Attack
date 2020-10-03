@@ -17,14 +17,13 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
+os.system("clear")
+os.system("figlet DDoS-Attack")
 print
 print "Kodlayan  : Mansur"
 print "Github    : https://github.com/mansur47"
 print "Instagram : https://instagram.com/mansur.sec"
 print
-os.system("clear")
-os.system("figlet DDoS-Attack")
-
 ip = raw_input("Hedef IP : ")
 port = input("Port       : ")
 
