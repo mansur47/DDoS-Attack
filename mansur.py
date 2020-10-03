@@ -28,7 +28,7 @@ ip = raw_input("Hedef IP : ")
 port = input("Port       : ")
 
 os.system("clear")
-os.system("figlet Saldiri Baslamistir")
+os.system("figlet Saldiri Basliyor")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
